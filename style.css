@@ -1,8 +1,10 @@
+/* Makes the entire body centered and makes all the dots for the ordered list be in the center as well */
 body {
   text-align: center;
   list-style-position: inside;
 }
 
+/* Adds borders to each section. Centers and shortens the borders so that they do not span across the entire page. Adds background color to distinguish from the white. */
 section{
   border-style: groove;
   width: 72%;
@@ -11,6 +13,8 @@ section{
   background-color: aliceblue
 }
 
+/* Adds borders to each section header. Centers and shortens the borders so that they do not span across the entire section. Adds background color to distinguish from the section.
+ Also changes font from default (Times New Roman) to Georgia. */
 .section-header {
   font-family: Georgia, Georgia, serif;
   background-color: lightgrey;
@@ -20,10 +24,12 @@ section{
   border-style: groove;
 }
 
+/* Adds an underline to each of the headers under "Skills and Qualifications"
 h3{
   text-decoration: underline;
 }
 
+/* Changes the font of the contact info to make it less bland compared to the default.
 #contact-info{
   font-family: Georgia, Georgia, serif;
 }
