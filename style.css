@@ -8,4 +8,18 @@ section{
   width: 72%;
   position:relative;
   left: 12%;
+  background-color: aliceblue
+}
+
+.section-header {
+  font-family: Georgia, Georgia, serif;
+  background-color: lightgrey;
+  width: 50%;
+  position: relative;
+  left: 25%;
+  border-style: groove;
+}
+
+li{
+  
 }
