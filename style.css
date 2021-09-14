@@ -24,12 +24,12 @@ section{
   border-style: groove;
 }
 
-/* Adds an underline to each of the headers under "Skills and Qualifications"
+/* Adds an underline to each of the headers under "Skills and Qualifications" */
 h3{
   text-decoration: underline;
 }
 
-/* Changes the font of the contact info to make it less bland compared to the default.
+/* Changes the font of the contact info to make it less bland compared to the default. */
 #contact-info{
   font-family: Georgia, Georgia, serif;
 }
